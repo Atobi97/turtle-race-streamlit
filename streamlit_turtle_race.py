@@ -8,7 +8,7 @@ import time
 st.set_page_config(page_title="Turtle Race", layout="centered")
 st.title("🐢 Turtle Race with Visualization")
 
-colors = ["red", "orange", "yellow", "green", "blue", "purple"]
+colors = ["red", "orange", "yellow", "green", "blue", "purple", "black", ]
 positions = {color: 0 for color in colors}
 finish_line = 100
 y_positions = np.arange(len(colors))
